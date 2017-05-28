@@ -3,7 +3,7 @@
 //  03-隐式动画
 //
 //  Created by apple on 17/2/17.
-//  Copyright © 2017年 itheima. All rights reserved.
+
 //
 
 #import "AppDelegate.h"
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    UIViewController *vc = [UIViewController new];
+//    vc.view.backgroundColor = [UIColor redColor];
+//    self.window.rootViewController = vc;
+//    
+//    self.window makeKeyAndVisible
     return YES;
 }
 

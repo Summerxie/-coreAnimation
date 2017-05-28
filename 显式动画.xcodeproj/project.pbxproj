@@ -13,10 +13,11 @@
 		1800B9451E569A3C0048A13D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1800B9431E569A3C0048A13D /* Main.storyboard */; };
 		1800B9471E569A3C0048A13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1800B9461E569A3C0048A13D /* Assets.xcassets */; };
 		1800B94A1E569A3C0048A13D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1800B9481E569A3C0048A13D /* LaunchScreen.storyboard */; };
+		1800B9531E56A13D0048A13D /* HMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800B9521E56A13D0048A13D /* HMApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1800B9371E569A3C0048A13D /* 03-隐式动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-隐式动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1800B9371E569A3C0048A13D /* 显式动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "显式动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1800B93B1E569A3C0048A13D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1800B93D1E569A3C0048A13D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1800B93E1E569A3C0048A13D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +27,8 @@
 		1800B9461E569A3C0048A13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1800B9491E569A3C0048A13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1800B94B1E569A3C0048A13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1800B9511E56A13D0048A13D /* HMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMApplication.h; sourceTree = "<group>"; };
+		1800B9521E56A13D0048A13D /* HMApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +45,7 @@
 		1800B92E1E569A3C0048A13D = {
 			isa = PBXGroup;
 			children = (
-				1800B9391E569A3C0048A13D /* 03-隐式动画 */,
+				1800B9391E569A3C0048A13D /* 显式动画 */,
 				1800B9381E569A3C0048A13D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +53,12 @@
 		1800B9381E569A3C0048A13D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1800B9371E569A3C0048A13D /* 03-隐式动画.app */,
+				1800B9371E569A3C0048A13D /* 显式动画.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1800B9391E569A3C0048A13D /* 03-隐式动画 */ = {
+		1800B9391E569A3C0048A13D /* 显式动画 */ = {
 			isa = PBXGroup;
 			children = (
 				1800B93D1E569A3C0048A13D /* AppDelegate.h */,
@@ -67,7 +70,10 @@
 				1800B9481E569A3C0048A13D /* LaunchScreen.storyboard */,
 				1800B94B1E569A3C0048A13D /* Info.plist */,
 				1800B93A1E569A3C0048A13D /* Supporting Files */,
+				1800B9511E56A13D0048A13D /* HMApplication.h */,
+				1800B9521E56A13D0048A13D /* HMApplication.m */,
 			);
+			name = "显式动画";
 			path = "03-隐式动画";
 			sourceTree = "<group>";
 		};
@@ -82,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1800B9361E569A3C0048A13D /* 03-隐式动画 */ = {
+		1800B9361E569A3C0048A13D /* 显式动画 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1800B94E1E569A3C0048A13D /* Build configuration list for PBXNativeTarget "03-隐式动画" */;
+			buildConfigurationList = 1800B94E1E569A3C0048A13D /* Build configuration list for PBXNativeTarget "显式动画" */;
 			buildPhases = (
 				1800B9331E569A3C0048A13D /* Sources */,
 				1800B9341E569A3C0048A13D /* Frameworks */,
@@ -94,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = "03-隐式动画";
+			name = "显式动画";
 			productName = "03-隐式动画";
-			productReference = 1800B9371E569A3C0048A13D /* 03-隐式动画.app */;
+			productReference = 1800B9371E569A3C0048A13D /* 显式动画.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1800B9321E569A3C0048A13D /* Build configuration list for PBXProject "03-隐式动画" */;
+			buildConfigurationList = 1800B9321E569A3C0048A13D /* Build configuration list for PBXProject "显式动画" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1800B9361E569A3C0048A13D /* 03-隐式动画 */,
+				1800B9361E569A3C0048A13D /* 显式动画 */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +159,7 @@
 				1800B9421E569A3C0048A13D /* ViewController.m in Sources */,
 				1800B93F1E569A3C0048A13D /* AppDelegate.m in Sources */,
 				1800B93C1E569A3C0048A13D /* main.m in Sources */,
+				1800B9531E56A13D0048A13D /* HMApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "03-隐式动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.-3-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omychic.-3-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -283,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "03-隐式动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.-3-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omychic.-3-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -291,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1800B9321E569A3C0048A13D /* Build configuration list for PBXProject "03-隐式动画" */ = {
+		1800B9321E569A3C0048A13D /* Build configuration list for PBXProject "显式动画" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1800B94C1E569A3C0048A13D /* Debug */,
@@ -300,13 +307,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1800B94E1E569A3C0048A13D /* Build configuration list for PBXNativeTarget "03-隐式动画" */ = {
+		1800B94E1E569A3C0048A13D /* Build configuration list for PBXNativeTarget "显式动画" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1800B94F1E569A3C0048A13D /* Debug */,
 				1800B9501E569A3C0048A13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
